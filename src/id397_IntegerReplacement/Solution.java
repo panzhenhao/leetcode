@@ -1,4 +1,4 @@
-package integerReplacement397;
+package id397_IntegerReplacement;
 
 
 /**
