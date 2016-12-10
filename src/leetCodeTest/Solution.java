@@ -28,7 +28,7 @@ public class Solution {
 			return integerReplacement(n)+1;
 		} else {
 			if (n == Integer.MAX_VALUE) {
-				return integerReplacement(n-1)+1;
+				return integerReplacement(n-1)+1;//边界leetCode测试用例有问题。正确的要有+1
 			} else {
 				return Math.min(integerReplacement(n-1)+1, integerReplacement(n + 1)+1);
 			}
