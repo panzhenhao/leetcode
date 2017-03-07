@@ -1,4 +1,4 @@
-package id1_TwoSumBz;
+package id001_TwoSumBz;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,9 +15,9 @@ Example:
 */
 public class Solution {
 	/*
-	 * ±©Á¦ÆÆ½â
-	 * Ê±¼ä¸´ÔÓ¶ÈO£¨N*N£©
-	 * ¿Õ¼ä¸´ÔÓ¶ÈO(1)
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½
+	 * Ê±ï¿½ä¸´ï¿½Ó¶ï¿½Oï¿½ï¿½N*Nï¿½ï¿½
+	 * ï¿½Õ¼ä¸´ï¿½Ó¶ï¿½O(1)
 	 */
 	public int[] twoSum(int[] nums, int target) {
 	    for (int i = 0; i < nums.length; i++) {
@@ -30,9 +30,9 @@ public class Solution {
 	    throw new IllegalArgumentException("No two sum solution");
 	}
 	/*
-	 * Á½¶ÎhashMap´úÂë
-	 * Ê±¼ä¸´ÔÓ¶ÈO(n)
-	 * ¿Õ¼ä¸´ÔÓ¶ÈO(n)
+	 * ï¿½ï¿½ï¿½ï¿½hashMapï¿½ï¿½ï¿½ï¿½
+	 * Ê±ï¿½ä¸´ï¿½Ó¶ï¿½O(n)
+	 * ï¿½Õ¼ä¸´ï¿½Ó¶ï¿½O(n)
 	 */
 	public int[] twoSum2(int[] nums, int target) {
 	    Map<Integer, Integer> map = new HashMap<>();
@@ -48,9 +48,9 @@ public class Solution {
 	    throw new IllegalArgumentException("No two sum solution");
 	}
 	/*
-	 * Ò»¶ÎhashMap´úÂë£¬ÏÈ»á¼ÆËãµ½ºóÃæÔªËØµÄ²î£¬ÇóÇ°ÃæµÄÔªËØ
-	 * Ê±¼ä¸´ÔÓ¶ÈO(n)
-	 * ¿Õ¼ä¸´ÔÓ¶ÈO(n)
+	 * Ò»ï¿½ï¿½hashMapï¿½ï¿½ï¿½ë£¬ï¿½È»ï¿½ï¿½ï¿½ãµ½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ØµÄ²î£¬ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ôªï¿½ï¿½
+	 * Ê±ï¿½ä¸´ï¿½Ó¶ï¿½O(n)
+	 * ï¿½Õ¼ä¸´ï¿½Ó¶ï¿½O(n)
 	 */
 	public int[] twoSum3(int[] nums, int target) {
 	    Map<Integer, Integer> map = new HashMap<>();
