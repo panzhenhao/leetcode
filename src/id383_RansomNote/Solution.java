@@ -10,11 +10,12 @@ public class Solution {
 		}
 		for (int i = 0; i < ransomNote.length(); i++) {
 			char ch = ransomNote.charAt(i);
-			int index = magazine.indexOf(String.valueOf(ch));
-			if (index == -1) {
+			
+			if (magazine.contains(String.valueOf(ch))) {
+				magazine=magazine.replaceFirst(String.valueOf(ch), "");
+			}else{
 				return false;
 			}
-			magazine=magazine.replaceFirst(String.valueOf(ch), "");
 		}
 		return true;
 	}
